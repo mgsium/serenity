@@ -14,7 +14,7 @@ export default class Home extends React.Component<Props, State> {
                     <h2 style={{ fontWeight: "bold" }}>Serenity</h2>
                     <h6 style={{ color: "#666" }}>Notifications without the Stress.</h6>
                     <br/>
-                    <Button variant="light">
+                    <Button variant="light" style={{ boxShadow: "0 .125rem .15rem rgba(0,0,0,.12)" }}>
                         Get Started
                     </Button>
                 </div>
