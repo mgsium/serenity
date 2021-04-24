@@ -7,7 +7,7 @@ import App from "./app";
 
 WebFont.load({
     google: {
-        families: ["Open Sans", "Roboto"]
+        families: ["Work Sans"]
     }
 })
 

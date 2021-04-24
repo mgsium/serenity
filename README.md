@@ -1,2 +1,2 @@
-# easynf
-Boilerplate code for a react-typescript frontend.
+# Serenity
+Notifications without the stress.
