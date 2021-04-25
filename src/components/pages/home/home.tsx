@@ -50,7 +50,7 @@ export default class Home extends React.Component<Props, State> {
                     animate={{ rotate: 180 }}
                     transition={{ repeat: Infinity, duration: 40, type: "tween" }}
                     className={ cx( Styles.landingLogo ) }
-                    style={{ }}>
+                >
                 </motion.img>
                 <div className={ cx( Styles.landingText, "text-center" ) }style={{ display: "table-cell", verticalAlign: "middle", fontFamily: "Work Sans, sans-serif", zIndex:10, position: "absolute" }}>
                     <h2 className={ cx( Styles.titleStyle )}>Serenity</h2>
