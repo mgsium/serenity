@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Styles from "./AppStyles";
 import Home from "./components/pages/home/home";
+import NotificationFeed from "./components/pages/dashboard/notificationFeed/notificationFeed";
 
 type State = {};
 type Props = {};
@@ -18,7 +19,8 @@ export default class App extends React.Component<Props, State> {
             <BrowserRouter>
                 <Switch>
                     {/* Paths */}
-                    <Route path="/"     component={Home} exact/>
+                    <Route path="/"                 component={Home}                exact/>
+                    <Route path="/notifications"     component={NotificationFeed}    exact/>
                 </Switch>
             </BrowserRouter>
         )
